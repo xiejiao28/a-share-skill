@@ -76,3 +76,37 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 3: Archive Trellis framework upgrade task
+
+**Date**: 2026-06-14
+**Task**: Archive Trellis framework upgrade task
+**Branch**: `main`
+
+### Summary
+
+完成 Trellis 升级到 0.6.0-rc.0 的任务归档，保留参数调优任务继续进行。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `48f7151` | (see git log) |
+| `3c15c76` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete

@@ -8,7 +8,7 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 2
+- **Total Sessions**: 3
 - **Last Active**: 2026-06-14
 <!-- @@@/auto:current-status -->
 
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~78 | Active |
+| `journal-1.md` | ~112 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 3 | 2026-06-14 | Archive Trellis framework upgrade task | `48f7151`, `3c15c76` | `main` |
 | 2 | 2026-06-14 | Complete bootstrap specs and archive strategy docs tasks | `091049d`, `d0ac3de`, `c1fc36a`, `ef63516`, `6ec1571` | `main` |
 | 1 | 2026-06-14 | Add experiments workspace scaffold | `372123a`, `51079b7` | `main` |
 <!-- @@@/auto:session-history -->
