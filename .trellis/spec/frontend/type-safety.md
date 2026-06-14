@@ -2,50 +2,17 @@
 
 > Type safety patterns in this project.
 
----
+## Current Reality
 
-## Overview
+There is no TypeScript frontend code in this repository.
 
-<!--
-Document your project's type safety conventions here.
+The closest current equivalents are:
 
-Questions to answer:
-- What type system do you use?
-- How are types organized?
-- What validation library do you use?
-- How do you handle type inference?
--->
+- Python type hints in backend/runtime scripts
+- Structured JSON payload contracts in CLI/service code
 
-(To be filled by the team)
+## Current Rule
 
----
-
-## Type Organization
-
-<!-- Where types are defined, shared types vs local types -->
-
-(To be filled by the team)
-
----
-
-## Validation
-
-<!-- Runtime validation patterns (Zod, Yup, io-ts, etc.) -->
-
-(To be filled by the team)
-
----
-
-## Common Patterns
-
-<!-- Type utilities, generics, type guards -->
-
-(To be filled by the team)
-
----
-
-## Forbidden Patterns
-
-<!-- any, type assertions, etc. -->
-
-(To be filled by the team)
+For now, frontend type-safety guidance is not applicable. If frontend TypeScript
+is introduced later, replace this file with rules derived from the actual
+implementation rather than generic TS advice.

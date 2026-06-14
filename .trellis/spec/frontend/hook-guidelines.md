@@ -2,50 +2,21 @@
 
 > How hooks are used in this project.
 
----
+## Current Reality
 
-## Overview
+There are no React hooks or equivalent frontend hook abstractions in this
+repository.
 
-<!--
-Document your project's hook conventions here.
+## Current Rule
 
-Questions to answer:
-- What custom hooks do you have?
-- How do you handle data fetching?
-- What are the naming conventions?
-- How do you share stateful logic?
--->
+Any mention of “hooks” in the current repo refers to platform integration hooks
+under `.codex/hooks/` or Trellis runtime hooks, not UI hooks. Do not mix those
+concepts.
 
-(To be filled by the team)
+Examples of existing non-frontend hooks:
 
----
+- `.codex/hooks/session-start.py`
+- `.codex/hooks/inject-workflow-state.py`
 
-## Custom Hook Patterns
-
-<!-- How to create and structure custom hooks -->
-
-(To be filled by the team)
-
----
-
-## Data Fetching
-
-<!-- How data fetching is handled (React Query, SWR, etc.) -->
-
-(To be filled by the team)
-
----
-
-## Naming Conventions
-
-<!-- Hook naming rules (use*, etc.) -->
-
-(To be filled by the team)
-
----
-
-## Common Mistakes
-
-<!-- Hook-related mistakes your team has made -->
-
-(To be filled by the team)
+If a browser/frontend layer is added later, rewrite this file from the actual
+hook usage there.

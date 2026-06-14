@@ -2,53 +2,23 @@
 
 > How frontend code is organized in this project.
 
----
+## Current Reality
 
-## Overview
+There is no frontend source tree in the current repository. No `src/`,
+`components/`, `pages/`, or browser bundle configuration exists.
 
-<!--
-Document your project's frontend directory structure here.
+What does exist:
 
-Questions to answer:
-- Where do components live?
-- How are features/modules organized?
-- Where are shared utilities?
-- How are assets organized?
--->
+- `docs/` for Markdown documentation
+- `README.md` for top-level project documentation
+- Markdown-based skill reference files inside each skill directory
 
-(To be filled by the team)
+## Current Rule
 
----
+Do not invent a frontend directory structure in tasks that only touch the
+current Python/Markdown toolchain.
 
-## Directory Layout
+## If Frontend Code Is Added Later
 
-```
-<!-- Replace with your actual structure -->
-src/
-├── ...
-└── ...
-```
-
----
-
-## Module Organization
-
-<!-- How should new features be organized? -->
-
-(To be filled by the team)
-
----
-
-## Naming Conventions
-
-<!-- File and folder naming rules -->
-
-(To be filled by the team)
-
----
-
-## Examples
-
-<!-- Link to well-organized modules as examples -->
-
-(To be filled by the team)
+Use a dedicated top-level app directory and document it explicitly here. Until
+then, treat frontend work as documentation work only.

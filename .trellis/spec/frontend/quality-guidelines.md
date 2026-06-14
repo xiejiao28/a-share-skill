@@ -2,50 +2,17 @@
 
 > Code quality standards for frontend development.
 
----
+## Current Reality
 
-## Overview
+No frontend application code exists in the repository today.
 
-<!--
-Document your project's quality standards here.
+## Current Rule
 
-Questions to answer:
-- What patterns are forbidden?
-- What linting rules do you enforce?
-- What are your testing requirements?
-- What code review standards apply?
--->
+Frontend quality review currently means documentation quality only:
 
-(To be filled by the team)
+- Markdown docs should match the real repository behavior
+- README and skill docs should not promise unsupported automation
+- Example commands should be runnable or clearly labeled as examples
 
----
-
-## Forbidden Patterns
-
-<!-- Patterns that should never be used and why -->
-
-(To be filled by the team)
-
----
-
-## Required Patterns
-
-<!-- Patterns that must always be used -->
-
-(To be filled by the team)
-
----
-
-## Testing Requirements
-
-<!-- What level of testing is expected -->
-
-(To be filled by the team)
-
----
-
-## Code Review Checklist
-
-<!-- What reviewers should check -->
-
-(To be filled by the team)
+If frontend UI code is added later, this file should be rewritten from that
+codebase's actual linting, testing, accessibility, and review rules.

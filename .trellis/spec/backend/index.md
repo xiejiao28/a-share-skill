@@ -1,38 +1,51 @@
 # Backend Development Guidelines
 
-> Best practices for backend development in this project.
-
----
+> Project-specific backend guidance for this repository.
 
 ## Overview
 
-This directory contains guidelines for backend development. Fill in each file with your project's specific conventions.
+This repository is a Python-first skills/tooling project, not a web app with a
+separate `src/` service layer. The backend surface here mainly means:
 
----
+- Python CLI entrypoints under skill `scripts/`
+- Small HTTP services such as the paper trading service
+- SQLite-backed local runtime state
+- Data-fetch / strategy / simulation utilities used by agents
+
+The goal of these docs is to help future agents extend the existing scripting
+style instead of inventing a generic FastAPI/Django structure that does not
+exist in this repo.
 
 ## Guidelines Index
 
 | Guide | Description | Status |
-|-------|-------------|--------|
-| [Directory Structure](./directory-structure.md) | Module organization and file layout | To fill |
-| [Database Guidelines](./database-guidelines.md) | ORM patterns, queries, migrations | To fill |
-| [Error Handling](./error-handling.md) | Error types, handling strategies | To fill |
-| [Quality Guidelines](./quality-guidelines.md) | Code standards, forbidden patterns | To fill |
-| [Logging Guidelines](./logging-guidelines.md) | Structured logging, log levels | To fill |
+| --- | --- | --- |
+| [Directory Structure](./directory-structure.md) | How Python scripts and skill folders are organized | Project-specific |
+| [Database Guidelines](./database-guidelines.md) | SQLite usage and persistence rules | Project-specific |
+| [Error Handling](./error-handling.md) | How scripts and services validate and surface errors | Project-specific |
+| [Quality Guidelines](./quality-guidelines.md) | Validation scripts, review focus, and forbidden patterns | Project-specific |
+| [Logging Guidelines](./logging-guidelines.md) | Current low-logging conventions for CLIs and local services | Project-specific |
 
----
+## Pre-Development Checklist
 
-## How to Fill These Guidelines
+Before changing backend code in this repository:
 
-For each guideline file:
+1. Identify which skill owns the behavior you are changing.
+2. Prefer following the skill-local `scripts/` layout instead of creating a new
+   shared framework.
+3. Check whether a CLI, service, and validation script already exist for the
+   same area before adding new entrypoints.
+4. Keep new behavior consistent with the existing local-runtime assumptions:
+   Python scripts, standard library first, JSON over HTTP, and SQLite for
+   lightweight persistence.
 
-1. Document your project's **actual conventions** (not ideals)
-2. Include **code examples** from your codebase
-3. List **forbidden patterns** and why
-4. Add **common mistakes** your team has made
+## Source Anchors
 
-The goal is to help AI assistants and new team members understand how YOUR project works.
+Use these as representative examples when extending the repo:
 
----
-
-**Language**: All documentation should be written in **English**.
+- `a-share-paper-trading/scripts/paper_trade_cli.py`
+- `a-share-paper-trading/scripts/paper_trading/engine.py`
+- `a-share-paper-trading/scripts/paper_trading/service.py`
+- `a-share-paper-trading/scripts/full_function_smoke_check.py`
+- `a-share-strategy-mainboard-multi-swing-defensive/scripts/daily_decisions.py`
+- `a-share-data/scripts/fetch_history.py`

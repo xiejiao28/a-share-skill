@@ -2,50 +2,17 @@
 
 > How state is managed in this project.
 
----
+## Current Reality
 
-## Overview
+There is no browser-side or SPA state layer in this repository.
 
-<!--
-Document your project's state management conventions here.
+The meaningful stateful systems today are backend/runtime concerns:
 
-Questions to answer:
-- What state management solution do you use?
-- How is local vs global state decided?
-- How do you handle server state?
-- What are the patterns for derived state?
--->
+- SQLite state in the paper trading engine
+- Trellis runtime state under `.trellis/.runtime/`
+- Task/session artifacts under `.trellis/tasks/` and `.trellis/workspace/`
 
-(To be filled by the team)
+## Current Rule
 
----
-
-## State Categories
-
-<!-- Local state, global state, server state, URL state -->
-
-(To be filled by the team)
-
----
-
-## When to Use Global State
-
-<!-- Criteria for promoting state to global -->
-
-(To be filled by the team)
-
----
-
-## Server State
-
-<!-- How server data is cached and synchronized -->
-
-(To be filled by the team)
-
----
-
-## Common Mistakes
-
-<!-- State management mistakes your team has made -->
-
-(To be filled by the team)
+Do not introduce Redux/React Query/Zustand-style guidance into this file until
+there is actual frontend code that uses those tools.
