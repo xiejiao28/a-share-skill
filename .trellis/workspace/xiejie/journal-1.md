@@ -39,3 +39,40 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 2: Complete bootstrap specs and archive strategy docs tasks
+
+**Date**: 2026-06-14
+**Task**: Complete bootstrap specs and archive strategy docs tasks
+**Branch**: `main`
+
+### Summary
+
+补齐 bootstrap guidelines 的 backend/frontend spec 文档，使其符合当前仓库的 Python skill 结构；同时归档 00-bootstrap-guidelines 与 strategy overview 两个任务。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `091049d` | (see git log) |
+| `d0ac3de` | (see git log) |
+| `c1fc36a` | (see git log) |
+| `ef63516` | (see git log) |
+| `6ec1571` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
