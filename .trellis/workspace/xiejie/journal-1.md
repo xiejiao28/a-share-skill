@@ -146,3 +146,39 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 5: 股票池最优参数回测
+
+**Date**: 2026-06-17
+**Task**: 股票池最优参数回测
+**Branch**: `main`
+
+### Summary
+
+基于单票报告中的最优参数，在指定 8 只股票池上完成近一年批量回测，输出股票池级结果文件与按策略汇总结论报告。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `b5eff4b` | (see git log) |
+| `0a83709` | (see git log) |
+| `f60a6e3` | (see git log) |
+| `4377d82` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
