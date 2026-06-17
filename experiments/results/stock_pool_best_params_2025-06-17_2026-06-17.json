@@ -1,0 +1,322 @@
+{
+  "generated_at": "2026-06-17T20:47:32",
+  "start": "2025-06-17",
+  "end": "2026-06-17",
+  "initial_cash": 100000.0,
+  "stock_pool": [
+    {
+      "symbol": "600517",
+      "name": "国网英大"
+    },
+    {
+      "symbol": "601669",
+      "name": "中国电建"
+    },
+    {
+      "symbol": "000060",
+      "name": "中金岭南"
+    },
+    {
+      "symbol": "002041",
+      "name": "登海种业"
+    },
+    {
+      "symbol": "002140",
+      "name": "东华科技"
+    },
+    {
+      "symbol": "002546",
+      "name": "新联电子"
+    },
+    {
+      "symbol": "603105",
+      "name": "芯能科技"
+    },
+    {
+      "symbol": "000630",
+      "name": "铜陵有色"
+    }
+  ],
+  "strategies": [
+    {
+      "strategy": "sma_cross",
+      "params": {
+        "fast": 30,
+        "slow": 60
+      }
+    },
+    {
+      "strategy": "rsi_revert",
+      "params": {
+        "buy_rsi": 25.0,
+        "sell_rsi": 60.0
+      }
+    }
+  ],
+  "results": [
+    {
+      "strategy": "sma_cross",
+      "symbol": "600517",
+      "name": "国网英大",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 30,
+        "slow": 60
+      },
+      "return_pct": -7.16,
+      "max_drawdown": 18.58,
+      "final_equity": 92840.71,
+      "trade_count": 2
+    },
+    {
+      "strategy": "rsi_revert",
+      "symbol": "600517",
+      "name": "国网英大",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "buy_rsi": 25.0,
+        "sell_rsi": 60.0
+      },
+      "return_pct": -21.8,
+      "max_drawdown": 27.53,
+      "final_equity": 78198.96,
+      "trade_count": 3
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "name": "中国电建",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 30,
+        "slow": 60
+      },
+      "return_pct": -0.16,
+      "max_drawdown": 22.67,
+      "final_equity": 99838.05,
+      "trade_count": 2
+    },
+    {
+      "strategy": "rsi_revert",
+      "symbol": "601669",
+      "name": "中国电建",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "buy_rsi": 25.0,
+        "sell_rsi": 60.0
+      },
+      "return_pct": -4.34,
+      "max_drawdown": 12.91,
+      "final_equity": 95662.94,
+      "trade_count": 9
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "000060",
+      "name": "中金岭南",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 30,
+        "slow": 60
+      },
+      "return_pct": 11.42,
+      "max_drawdown": 32.64,
+      "final_equity": 111424.95,
+      "trade_count": 3
+    },
+    {
+      "strategy": "rsi_revert",
+      "symbol": "000060",
+      "name": "中金岭南",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "buy_rsi": 25.0,
+        "sell_rsi": 60.0
+      },
+      "return_pct": 1.11,
+      "max_drawdown": 7.82,
+      "final_equity": 101110.83,
+      "trade_count": 2
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "002041",
+      "name": "登海种业",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 30,
+        "slow": 60
+      },
+      "return_pct": 0.41,
+      "max_drawdown": 19.9,
+      "final_equity": 100406.25,
+      "trade_count": 4
+    },
+    {
+      "strategy": "rsi_revert",
+      "symbol": "002041",
+      "name": "登海种业",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "buy_rsi": 25.0,
+        "sell_rsi": 60.0
+      },
+      "return_pct": -15.93,
+      "max_drawdown": 22.63,
+      "final_equity": 84071.55,
+      "trade_count": 3
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "002140",
+      "name": "东华科技",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 30,
+        "slow": 60
+      },
+      "return_pct": -1.41,
+      "max_drawdown": 18.09,
+      "final_equity": 98594.38,
+      "trade_count": 2
+    },
+    {
+      "strategy": "rsi_revert",
+      "symbol": "002140",
+      "name": "东华科技",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "buy_rsi": 25.0,
+        "sell_rsi": 60.0
+      },
+      "return_pct": 10.66,
+      "max_drawdown": 8.68,
+      "final_equity": 110657.83,
+      "trade_count": 7
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "002546",
+      "name": "新联电子",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 30,
+        "slow": 60
+      },
+      "return_pct": -4.07,
+      "max_drawdown": 17.69,
+      "final_equity": 95931.11,
+      "trade_count": 2
+    },
+    {
+      "strategy": "rsi_revert",
+      "symbol": "002546",
+      "name": "新联电子",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "buy_rsi": 25.0,
+        "sell_rsi": 60.0
+      },
+      "return_pct": -16.88,
+      "max_drawdown": 30.49,
+      "final_equity": 83118.79,
+      "trade_count": 7
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "603105",
+      "name": "芯能科技",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 30,
+        "slow": 60
+      },
+      "return_pct": 4.63,
+      "max_drawdown": 29.85,
+      "final_equity": 104632.52,
+      "trade_count": 2
+    },
+    {
+      "strategy": "rsi_revert",
+      "symbol": "603105",
+      "name": "芯能科技",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "buy_rsi": 25.0,
+        "sell_rsi": 60.0
+      },
+      "return_pct": -8.58,
+      "max_drawdown": 23.58,
+      "final_equity": 91422.78,
+      "trade_count": 5
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "000630",
+      "name": "铜陵有色",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 30,
+        "slow": 60
+      },
+      "return_pct": 9.68,
+      "max_drawdown": 45.64,
+      "final_equity": 109681.83,
+      "trade_count": 3
+    },
+    {
+      "strategy": "rsi_revert",
+      "symbol": "000630",
+      "name": "铜陵有色",
+      "start": "2025-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "buy_rsi": 25.0,
+        "sell_rsi": 60.0
+      },
+      "return_pct": 2.3,
+      "max_drawdown": 8.07,
+      "final_equity": 102297.27,
+      "trade_count": 2
+    }
+  ],
+  "strategy_summary": [
+    {
+      "strategy": "sma_cross",
+      "params": {
+        "fast": 30,
+        "slow": 60
+      },
+      "average_return_pct": 1.67,
+      "average_max_drawdown": 25.63,
+      "positive_count": 4,
+      "stock_count": 8
+    },
+    {
+      "strategy": "rsi_revert",
+      "params": {
+        "buy_rsi": 25.0,
+        "sell_rsi": 60.0
+      },
+      "average_return_pct": -6.68,
+      "average_max_drawdown": 17.71,
+      "positive_count": 3,
+      "stock_count": 8
+    }
+  ]
+}
