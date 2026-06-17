@@ -8,7 +8,7 @@
 
 <!-- @@@auto:current-status -->
 - **Active File**: `journal-1.md`
-- **Total Sessions**: 5
+- **Total Sessions**: 6
 - **Last Active**: 2026-06-17
 <!-- @@@/auto:current-status -->
 
@@ -19,7 +19,7 @@
 <!-- @@@auto:active-documents -->
 | File | Lines | Status |
 |------|-------|--------|
-| `journal-1.md` | ~184 | Active |
+| `journal-1.md` | ~220 | Active |
 <!-- @@@/auto:active-documents -->
 
 ---
@@ -29,6 +29,7 @@
 <!-- @@@auto:session-history -->
 | # | Date | Title | Commits | Branch |
 |---|------|-------|---------|--------|
+| 6 | 2026-06-17 | 账户日志与手动复盘流程 | `550fc31`, `51b18b9`, `f9a008c`, `dc21a99` | `main` |
 | 5 | 2026-06-17 | 股票池最优参数回测 | `b5eff4b`, `0a83709`, `f60a6e3`, `4377d82` | `main` |
 | 4 | 2026-06-17 | 策略参数调优与实验对比 | `fc4e859`, `d67c96c`, `fa90277`, `eafbc0e` | `main` |
 | 3 | 2026-06-14 | Archive Trellis framework upgrade task | `48f7151`, `3c15c76` | `main` |

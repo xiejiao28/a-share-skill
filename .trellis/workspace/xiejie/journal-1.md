@@ -182,3 +182,39 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 6: 账户日志与手动复盘流程
+
+**Date**: 2026-06-17
+**Task**: 账户日志与手动复盘流程
+**Branch**: `main`
+
+### Summary
+
+补齐账户状态记录、操作日志和手动复盘流程，新增 log 工作区与 account_review_log 脚本，并把 experiments/log 工作区用途写入目录说明和 Trellis 规范。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `550fc31` | (see git log) |
+| `51b18b9` | (see git log) |
+| `f9a008c` | (see git log) |
+| `dc21a99` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
