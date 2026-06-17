@@ -35,7 +35,8 @@ repo/
 ├── macd-trend-resonance-stock-picker/
 ├── tuige-shortline-trading/
 ├── docs/
-└── experiments/
+├── experiments/
+└── log/
 ```
 
 ## Module Organization Rules
@@ -51,6 +52,7 @@ Examples:
   market-data logic for the paper trading skill.
 - `a-share-strategy-mainboard-multi-swing-defensive/scripts/strategy_lab/`
   holds strategy-specific indicators and params, not shared repo-wide modules.
+- `experiments/scripts/` holds repo-local experiment and research scripts.
 
 ### 2. Separate entrypoints from reusable modules
 
@@ -62,6 +64,7 @@ Examples:
 - Entry CLI: `a-share-paper-trading/scripts/paper_trade_cli.py`
 - Entry service: `a-share-paper-trading/scripts/paper_trading_service.py`
 - Reusable engine: `a-share-paper-trading/scripts/paper_trading/engine.py`
+- Entry experiment: `experiments/scripts/optimize_backtest_params.py`
 
 ### 3. Prefer local imports with explicit path bootstrapping when needed
 
@@ -90,9 +93,32 @@ Examples:
 - Strategy or skill docs live in `SKILL.md`; extra operator docs live in
   `README.md` or `references/`.
 
+## Repo-Local Workspaces
+
+Two repo-root workspaces are intentionally used by agents in this project:
+
+- `experiments/`
+  - Research workspace for backtests, parameter sweeps, result JSON files, and
+    concise experiment reports
+  - `experiments/scripts/` is the place for repo-local research scripts when
+    the behavior does not belong to one existing skill
+- `log/`
+  - Personal account-maintenance workspace for account snapshots, action logs,
+    and manual review records
+  - `log/account/`, `log/actions/`, and `log/reviews/` should be treated as a
+    persistent audit trail, not temporary scratch files
+
+When an agent is asked to do strategy research, compare backtests, or write
+experiment summaries, start with `experiments/`.
+
+When an agent is asked to maintain personal holdings, record trade reasons, or
+run a manual review, start with `log/`.
+
 ## Anti-Patterns
 
 - Do not add a fake `src/` tree just to satisfy a generic template.
 - Do not move skill-local code into `.trellis/` or `docs/`.
+- Do not mix `experiments/` and `log/` responsibilities: experiment outputs go
+  to `experiments/`, personal account journaling goes to `log/`.
 - Do not split a tiny script into many abstraction layers unless that pattern
   already exists nearby.
