@@ -110,3 +110,39 @@
 ### Next Steps
 
 - None - task complete
+
+
+## Session 4: 策略参数调优与实验对比
+
+**Date**: 2026-06-17
+**Task**: 策略参数调优与实验对比
+**Branch**: `main`
+
+### Summary
+
+补齐交易策略参数调优的 Trellis 规划，新增统一实验脚本，完成 601669 的 sma_cross 与 rsi_revert 单票参数实验并输出结果与对比报告。
+
+### Main Changes
+
+(Add details)
+
+### Git Commits
+
+| Hash | Message |
+|------|---------|
+| `fc4e859` | (see git log) |
+| `d67c96c` | (see git log) |
+| `fa90277` | (see git log) |
+| `eafbc0e` | (see git log) |
+
+### Testing
+
+- [OK] (Add test results)
+
+### Status
+
+[OK] **Completed**
+
+### Next Steps
+
+- None - task complete
