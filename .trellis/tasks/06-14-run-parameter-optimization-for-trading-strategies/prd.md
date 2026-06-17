@@ -47,6 +47,10 @@
 * 第一阶段先做单票验证，跑通参数调优流程后再考虑扩展到股票池批量验证。
 * 单票验证阶段默认样本票为 `601669`（中国电建）。
 * 单票验证阶段默认回测区间为近 3 年。
+* 子任务执行顺序固定为：
+  * 先完成 `06-16-optimize-sma-cross-parameters`
+  * 再完成 `06-16-optimize-rsi-revert-parameters`
+* 两个子任务必须复用同一套实验编排骨架与统一结果契约，避免各写一套输出格式。
 
 ## 验收标准
 
@@ -66,3 +70,20 @@
 
 * 回测入口位于 `a-share-paper-trading/scripts/paper_trading/engine.py` 的 `run_backtest`
 * 当前已识别的参数化策略为 `sma_cross` 和 `rsi_revert`
+* 第一阶段统一结果契约至少包含：
+  * `strategy`
+  * `symbol`
+  * `start`
+  * `end`
+  * `params`
+  * `final_equity`
+  * `return_pct`
+  * `max_drawdown`
+  * `return_drawdown_ratio`
+  * `trade_count`
+  * `rank`
+* 结果文件命名至少包含：
+  * 策略名
+  * 股票代码
+  * 时间区间
+  * 生成时间戳
