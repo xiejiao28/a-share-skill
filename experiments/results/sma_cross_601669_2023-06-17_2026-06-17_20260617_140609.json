@@ -1,0 +1,395 @@
+{
+  "generated_at": "2026-06-17T14:06:09",
+  "strategy": "sma_cross",
+  "symbol": "601669",
+  "start": "2023-06-17",
+  "end": "2026-06-17",
+  "initial_cash": 100000.0,
+  "grid_size": 24,
+  "results": [
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 15,
+        "slow": 60
+      },
+      "final_equity": 109395.85,
+      "return_pct": 9.4,
+      "max_drawdown": 30.41,
+      "return_drawdown_ratio": 0.3091,
+      "trade_count": 6,
+      "rank": 1
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 15,
+        "slow": 40
+      },
+      "final_equity": 107950.28,
+      "return_pct": 7.95,
+      "max_drawdown": 26.97,
+      "return_drawdown_ratio": 0.2948,
+      "trade_count": 14,
+      "rank": 2
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 3,
+        "slow": 40
+      },
+      "final_equity": 107073.06,
+      "return_pct": 7.07,
+      "max_drawdown": 27.59,
+      "return_drawdown_ratio": 0.2563,
+      "trade_count": 26,
+      "rank": 3
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 10,
+        "slow": 20
+      },
+      "final_equity": 106263.08,
+      "return_pct": 6.26,
+      "max_drawdown": 25.86,
+      "return_drawdown_ratio": 0.2421,
+      "trade_count": 32,
+      "rank": 4
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 8,
+        "slow": 20
+      },
+      "final_equity": 105643.77,
+      "return_pct": 5.64,
+      "max_drawdown": 26.46,
+      "return_drawdown_ratio": 0.2132,
+      "trade_count": 32,
+      "rank": 5
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 12,
+        "slow": 30
+      },
+      "final_equity": 104235.03,
+      "return_pct": 4.24,
+      "max_drawdown": 26.96,
+      "return_drawdown_ratio": 0.1573,
+      "trade_count": 18,
+      "rank": 6
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 10,
+        "slow": 60
+      },
+      "final_equity": 103969.62,
+      "return_pct": 3.97,
+      "max_drawdown": 30.07,
+      "return_drawdown_ratio": 0.132,
+      "trade_count": 8,
+      "rank": 7
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 12,
+        "slow": 40
+      },
+      "final_equity": 103520.16,
+      "return_pct": 3.52,
+      "max_drawdown": 29.98,
+      "return_drawdown_ratio": 0.1174,
+      "trade_count": 16,
+      "rank": 8
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 3,
+        "slow": 20
+      },
+      "final_equity": 102018.2,
+      "return_pct": 2.02,
+      "max_drawdown": 27.19,
+      "return_drawdown_ratio": 0.0743,
+      "trade_count": 36,
+      "rank": 9
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 12,
+        "slow": 60
+      },
+      "final_equity": 102412.77,
+      "return_pct": 2.41,
+      "max_drawdown": 33.51,
+      "return_drawdown_ratio": 0.0719,
+      "trade_count": 6,
+      "rank": 10
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 3,
+        "slow": 30
+      },
+      "final_equity": 99224.7,
+      "return_pct": -0.78,
+      "max_drawdown": 27.46,
+      "return_drawdown_ratio": -0.0284,
+      "trade_count": 34,
+      "rank": 11
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 3,
+        "slow": 60
+      },
+      "final_equity": 98426.45,
+      "return_pct": -1.57,
+      "max_drawdown": 29.62,
+      "return_drawdown_ratio": -0.053,
+      "trade_count": 14,
+      "rank": 12
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 5,
+        "slow": 20
+      },
+      "final_equity": 95210.0,
+      "return_pct": -4.79,
+      "max_drawdown": 27.58,
+      "return_drawdown_ratio": -0.1737,
+      "trade_count": 34,
+      "rank": 13
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 10,
+        "slow": 40
+      },
+      "final_equity": 93163.27,
+      "return_pct": -6.84,
+      "max_drawdown": 29.74,
+      "return_drawdown_ratio": -0.23,
+      "trade_count": 20,
+      "rank": 14
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 8,
+        "slow": 60
+      },
+      "final_equity": 91434.86,
+      "return_pct": -8.57,
+      "max_drawdown": 34.47,
+      "return_drawdown_ratio": -0.2486,
+      "trade_count": 8,
+      "rank": 15
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 15,
+        "slow": 20
+      },
+      "final_equity": 93016.64,
+      "return_pct": -6.98,
+      "max_drawdown": 27.0,
+      "return_drawdown_ratio": -0.2585,
+      "trade_count": 32,
+      "rank": 16
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 8,
+        "slow": 30
+      },
+      "final_equity": 92578.16,
+      "return_pct": -7.42,
+      "max_drawdown": 27.33,
+      "return_drawdown_ratio": -0.2715,
+      "trade_count": 18,
+      "rank": 17
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 10,
+        "slow": 30
+      },
+      "final_equity": 92193.94,
+      "return_pct": -7.81,
+      "max_drawdown": 27.49,
+      "return_drawdown_ratio": -0.2841,
+      "trade_count": 18,
+      "rank": 18
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 5,
+        "slow": 40
+      },
+      "final_equity": 90481.14,
+      "return_pct": -9.52,
+      "max_drawdown": 32.18,
+      "return_drawdown_ratio": -0.2958,
+      "trade_count": 22,
+      "rank": 19
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 8,
+        "slow": 40
+      },
+      "final_equity": 89828.96,
+      "return_pct": -10.17,
+      "max_drawdown": 29.69,
+      "return_drawdown_ratio": -0.3425,
+      "trade_count": 18,
+      "rank": 20
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 5,
+        "slow": 60
+      },
+      "final_equity": 87856.92,
+      "return_pct": -12.14,
+      "max_drawdown": 33.6,
+      "return_drawdown_ratio": -0.3613,
+      "trade_count": 14,
+      "rank": 21
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 12,
+        "slow": 20
+      },
+      "final_equity": 88712.47,
+      "return_pct": -11.29,
+      "max_drawdown": 28.37,
+      "return_drawdown_ratio": -0.398,
+      "trade_count": 32,
+      "rank": 22
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 15,
+        "slow": 30
+      },
+      "final_equity": 86591.55,
+      "return_pct": -13.41,
+      "max_drawdown": 31.74,
+      "return_drawdown_ratio": -0.4225,
+      "trade_count": 18,
+      "rank": 23
+    },
+    {
+      "strategy": "sma_cross",
+      "symbol": "601669",
+      "start": "2023-06-17",
+      "end": "2026-06-17",
+      "params": {
+        "fast": 5,
+        "slow": 30
+      },
+      "final_equity": 85518.85,
+      "return_pct": -14.48,
+      "max_drawdown": 30.57,
+      "return_drawdown_ratio": -0.4737,
+      "trade_count": 30,
+      "rank": 24
+    }
+  ]
+}
